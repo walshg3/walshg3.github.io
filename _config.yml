@@ -1,7 +1,7 @@
-title:            Notepad
-description:      "Blogging is fun"
-logo:             logo3.png
-disqus_shortname: hmfaysal
+title:            Greg Walsh Blog and Online Resume
+description:      "Initial Homepage of website."
+logo:             logo.png
+disqus_shortname: walshg3
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
@@ -10,18 +10,19 @@ share:            true
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         hmfaysal.jpg
-  email:          you@email.com
+  name:           Gregory Walsh
+  avatar:         logo_transparent.png
+  email:          gregwalsh96@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        hmfaysal
-  facebook:       hmfaysal
-  github:         hmfaysal      
-  instagram:      hmfaysal
+  twitter:        https://twitter.com/GregWalsh96
+  facebook:       https://www.facebook.com/gregory.j.walsh.1
+  github:         https://github.com/walshg3      
+  instagram:      gregwalsh96
+  linkedin:       https://www.linkedin.com/in/gregwalsh96
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    https://plus.google.com/u/0/102602916593522619858
+  google_plus:    none
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -70,8 +71,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://walshg3.github.io/'
+  relativeLinks: 'http://walshg3.github.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
