@@ -60,7 +60,8 @@ Owner Name: Gregory Walsh
             </div>
             <div class="bg-img"></div>
         </header>
-        <button class="trigger bg-check" data-info="Read more"><span>Trigger</span></button>
+        <button class="trigger bg-check" data-info="Read more"></button>
+        <!-- {% if page.unsplash %}<img src="https://source.unsplash.com/1920x1080/?nature,wallpapers,architecture"/>{% endif %} -->
         {% if page.imagefeature %}<img src="{{ site.url }}/images/{{ page.imagefeature }}" alt="cover-image" />{% endif %}
         <article class="summer-post-content post">
             <div>{{ content }}
