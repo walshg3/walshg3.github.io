@@ -4,7 +4,7 @@ permalink: /greg-walsh/index.html
 title: Gregory Walsh
 tags: [Greg , Walsh, about, me]
 image:
-  feature: profile.jpg
+feature: profile.jpg
 ---
 
   <img src="{{ site.url }}/images/profile.jpg" >
@@ -12,49 +12,13 @@ image:
 
 My name is **Greg Walsh**, and this is my personal blog.  
 
-I am an PhD candidate in *Electrical Engineering* at the [School of Engineering and Applied Science](http://www.seas.upenn.edu/) at **University of Pennsylvania**. I am licensed as a Professional Engineer (P.E) to practice in the states of Texas, Massachusetts and California. I double majored in EECS and Mathematics during my undergraduate life at [Massachusetts Institute of Technology](http://www.mit.edu/), and currently focusing on Electrical Engineering for my post-graduate studies.
+I am an Graduate Student in *Data Science and Strategic Analytics* at [Stockton University](http://www.stockton.edu/). I majored Computer Science during my undergraduate life at [Stockton University](http://www.stockton.edu/), and I am currently focusing on Data Science and Machine Learning for my Graduate Degree. 
 
-At some point in the not-terribly-distant future, I hope to found a self-sustaining collective of clever people, for fun, profit(?), and the promotion of human life in the universe. This might wind up in Qatar, Bangladesh, Scandinavia, the Massachusetts Bay Area, the SF Bay Area, Japan, Germany, or the dustbin of overly idealistic plans. (Yes, I have a special bin for overly idealistic plans. In my district they can't be recycled with residential mixed paper.) The most challenging aspect of this concept is to curtail unproductive competition with other people who will inevitably have the same idea. (Some sort of cooperative federation...) I'm presently looking for people who might be interested in being a part of such an organization.
+The purpose of this website is to show work done in an Independent Study on Machine Learning during my Senior Year of my undergraduate degree. The blog will also serve as a page to show what tech I am currently working on as well as a online resume. 
 
-Anyways, for now I'm just working toward changing the face of Electrical Engineering forever. Not that I necessarily expect to succeed, but it's something to strive for, and it's a fun problem to work on.
-
-
->Entrepreneur
->
->Designer
->
->Engineer
->
->Inventor
-
-I
-make
-stuff.
-
-
-*Beautiful, practical, meaningful stuff.*
-
+**Most Importantly**
 
 I make what I love.
 
 *I love what I do.*
 
-
-But over the years, I noticed that somehow, along the way, software designed to help us be creative, actually made us less creative. That's because we believe our best ideas emerge when we use pencils and paper.
-So I set out to build tools that work the way I do.
-
-
-Tools for the creative space — the 53 centimeters that magically link head, heart, and hand. Tools as simple as pencil and paper. Tools so essential, I  really can't imagine work without them.
-
-
-> For
->
-> the makers,
-> 
-> the creators,
-> 
-> the discoverers,
-> 
-> the original thinkers,
-> 
-> ### *This is the space to create.* ###

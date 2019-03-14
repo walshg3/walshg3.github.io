@@ -1,12 +1,13 @@
 ---
 layout: post
 published: true
-title: "How many things are there?"
+title: "Getting Started with Jekyll"
 mathjax: false
 featured: true
 comments: false
-video: "https://www.youtube.com/watch?v=C6eOcd06kdk"
-type: video
+categories: 
+  - webdevelopment
+tags: jekyll
 ---
 
-Awesome post by VSauce
+Jekyll is fun!
