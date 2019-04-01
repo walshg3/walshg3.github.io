@@ -40,29 +40,29 @@ Other than that, I was successfully able to create a neural network to identify 
 
 Roses: 
 
-<img src="/images/Flowers/rose1.png" alt="" width="200"/>
-<img src="/images/Flowers/rose2.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/rose1.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/rose2.png" alt="" width="200"/>
 
 <br>
 <br>
 
 Tulips:
 
-<img src="/images/Flowers/tulip.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/tulip.png" alt="" width="200"/>
 
 <br>
 <br>
 
 Sunflowers:
 
-<img src="/images/Flowers/sunflower1.png" alt="" width="200"/>
-<img src="/images/Flowers/sunflower2.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/sunflower1.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/sunflower2.png" alt="" width="200"/>
 
 
 How does this work you might be asking? Basically, a bunch of images was passed into googles [inception](https://ai.googleblog.com/2016/03/train-your-own-image-classifier-with.html) engine to looks specifically for flowers. After extensive training and testing the image classifier gets almost perfect results on flowers. The really cool thing with inception is you can use it as a base and train your own image classifier to identify any object as long as you have enough pictures to pass into the training.
 
 On a final and hilarious note. I've been going around and seeing what kind of flowers my friends are :)
 
-<img src="/images/Flowers/friend1.png" alt="" width="200"/>
-<img src="/images/Flowers/friend2.png" alt="" width="200"/>
-<img src="/images/Flowers/friend3.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/friend1.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/friend2.png" alt="" width="200"/>
+<img src="gregwalsh.tech/images/Flowers/friend3.png" alt="" width="200"/>
