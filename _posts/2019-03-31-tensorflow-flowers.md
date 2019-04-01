@@ -66,4 +66,4 @@ On a final and hilarious note. I've been going around and seeing what kind of fl
 
 <img src="{{ site.url }}/images/flowers/friend1.png" alt="" width="200"/>
 <img src="{{ site.url }}/images/flowers/friend2.png" alt="" width="200"/>
-<img src="{{ site.url }}/images/flowers/friend3s.png" alt="" width="200"/>
+<img src="{{ site.url }}/images/flowers/friend3.png" alt="" width="200"/>
