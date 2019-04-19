@@ -1,20 +1,20 @@
 title:            Greg Walsh Blog and Online Resume
 description:      "Initial Homepage of website."
-logo:             logo.png
+logo:             Logo-only.png
 disqus_shortname: walshg3
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-#url:        	  http://hmfaysal.github.io
+url:        	  https://gregwalsh.tech
 
 # Owner/author information
 owner:
   name:           Gregory Walsh
-  avatar:         logo_transparent.png
+  avatar:         Long-PNG.png
   email:          gregwalsh96@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    "20% of someones success is based off what happens to them. Things out of they're control. 80% of someones success is based off how they RESPOND to those things happening. Do you rise to the occasion or do you let it defeat you? Do you find the light inside the darkness or do you give up? -Tim Alexander, 2005'ish."
+  description:    "20% of someones success is based off what happens to them. Things out of they're control. 80% of someones success is based off how they RESPOND to those things happening."
   # Social networking links used in footer. Update and remove as you like.
   twitter:        GregWalsh96
   facebook:       gregory.j.walsh.1
