@@ -9,9 +9,9 @@ Main Features:
 
 Credits:
 
-* Zurb Foundation 5 http://foundation.zurb.com/
-* Font Awesome http://fontawesome.io
-* Google fonts http://www.google.com/fonts
-* Background check http://kennethcachia.com/background-check
-* Codrops article: http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/
+* Zurb Foundation 5 https://foundation.zurb.com/
+* Font Awesome https://fontawesome.io
+* Google fonts https://www.google.com/fonts
+* Background check https://kennethcachia.com/background-check
+* Codrops article: https://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/
 * There are also tools like jQuery, Modernizr, Normalize.
