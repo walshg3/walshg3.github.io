@@ -20,7 +20,8 @@ featured: true
 published: true
 ---
 
-On Episode 2 of the Google Developers Machine Learning Recipes with Josh Gordon [Youtube series](https://goo.gl/KewA03) we are looking at the Iris Flowers Data set and are going to attempt to make a Decision Tree using TensorFlow. 
+On Episode 2 of the Google Developers Machine Learning Recipes with Josh Gordon [Youtube series](https://goo.gl/KewA03) we are looking at the Iris Flowers Data set and are going to attempt to make a Decision Tree using TensorFlow to classify 3 different species of iris flowers.
+
 ## Prerequisites 
 I am using MacOS for my development so if you are running Linux, Windows, or are throwing rocks to make sparks you might need to change accordingly. I used conda ([Anacondas](https://docs.anaconda.com/anaconda/navigator/) Package Manager) to create a python environment for the application. 
 
@@ -35,6 +36,8 @@ This will create a python environment with the base level packages needed includ
 conda activate tensorflow_env
 ```
 Now we are in the activated python environment so any scripts for the TensorFlow guide that need specific imports will be able to run with no problems. 
+
+The code I used is available on my [github](https://github.com/walshg3/CSIS-4800-MACHINE-LEARNING/blob/master/Google%20Developers%20Machine%20Learning%20Recipes%20Series/viz.py) 
 
 ## My thoughts on the video
 
@@ -83,7 +86,8 @@ The decision tree was printed to a pdf that I will place below. You will see the
 
 <img src="{{ site.url }}/images/iris-data.png" alt="" />
 
-Overall this lab was a great introduction to some Machine Learning Concepts as well as TensorFlow. I am excited to learn about the other classification methods other than decision trees in the future. 
+Overall this lab was a great introduction to some Machine Learning Concepts as well as TensorFlow. Every question a Tree asks must be about your Features. That means the better your features are, the better a tree you can build. 
+I am excited to learn about the other classification methods other than decision trees in the future. 
 
 On a final note, Irises are funny looking flowers.
 
