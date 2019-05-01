@@ -46,6 +46,12 @@ If you wanted to run the container with bash you would run:
 docker run -it tensorflow/tensorflow bash
 ```
 
+Docker can get a lot more advanced such as networking and adding volumes. Volumes are important if you plan on keeping you code outside the container. 
+
+All in all its a great tool that i've had a lot of fun learning about. The whale is super cute too! 
+
+<img src="https://www.brianweet.com/assets/docker-blog-1/docker-logo.png" alt=""  />
+
 ___
 
 ## Sources
