@@ -34,7 +34,7 @@ Tokenizing the captions is a really interesting concept. Converting the Text to 
 The **Model** is made using the model architecture inspired by the Show, Attend and Tell paper. which is basically extracting features from the lower convolutional layer of InceptionV3 and squashing the shape to fit in a CNN Encoder.
 
 To **Train** we take the CNN Encoder output and pass it into a decoder and use teacher forcing to decide the next input to the decoder.
-**Teacher forcing is the technique where the target word is passed as the next input to the decoder. **
+**Teacher forcing is the technique where the target word is passed as the next input to the decoder.**
 Then we calculate the gradients and apply it to the optimizer and backpropagate as written in the Show, Attend and Tell paper.
 
 The evaluate function is similar to the training loop, except we don't use teacher forcing. The input to the decoder at each time step is its previous predictions along with the hidden state and the encoder output.
