@@ -1,6 +1,6 @@
 ---
 layout: post
-title: pipelines and KNeighbors Classifier
+title: Pipelines and KNeighbors Classifier
 description: "PKNeighborsClassifier pipeline"
 headline: "Making a Pipeline"
 categories: 
