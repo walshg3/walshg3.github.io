@@ -47,4 +47,14 @@ An Example with a man trying to hit a baseball is below:
 This guide for me was hard to follow. Mostly because I picked a module that I thought was interesting rather than the next module in difficulty. Overall, I learned a lot but felt it was challenging to fully comprehend most of the information. My hope is to use this post as a point in my life I can go back to and relook at the guide once I have more knowledge of the classifiers used. Specifically, Teacher forcing.
 
 
+---
+## Sources
+
+“Image Captioning with Attention  |  TensorFlow Core 2.0a  |  TensorFlow.” TensorFlow, www.tensorflow.org/alpha/tutorials/text/image_captioning.
+
+Xu, et al. “Show, Attend and Tell: Neural Image Caption Generation with Visual Attention.” ArXiv.org, 19 Apr. 2016, arxiv.org/abs/1502.03044.
+
+
+
+
 
