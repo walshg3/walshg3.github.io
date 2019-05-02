@@ -50,7 +50,6 @@ This guide for me was hard to follow. Mostly because I picked a module that I th
 ---
 ## Sources
 
-“Image Captioning with Attention  |  TensorFlow Core 2.0a  |  TensorFlow.” TensorFlow, www.tensorflow.org/alpha/tutorials/text/image_captioning.
 
 Xu, et al. “Show, Attend and Tell: Neural Image Caption Generation with Visual Attention.” ArXiv.org, 19 Apr. 2016, arxiv.org/abs/1502.03044.
 
