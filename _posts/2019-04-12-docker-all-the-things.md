@@ -6,7 +6,6 @@ headline: "Docker All The Things"
 categories: 
   - Machine Learning
   - TensorFlow
-  - Independent Study
   - Docker
 tags: 
   - Machine Learning
