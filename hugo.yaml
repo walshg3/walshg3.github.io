@@ -2,7 +2,7 @@ baseURL: "https://gregwalsh.tech/"
 title: GregWalsh.tech
 languageCode: en-us
 pagination.pagerSize: 5
-theme: ["PaperMod", "hugo-embed-pdf-shortcode"]
+theme: ["hugo-embed-pdf-shortcode","PaperMod"]
 enableInlineShortcodes: true
 
 enableRobotsTXT: true
