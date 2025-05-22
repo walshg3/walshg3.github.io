@@ -16,7 +16,7 @@ disableShare: true
 
 ![Photo of me](/aboutme.png)
 
-My name is Greg Walsh, and this is my personal blog. My hopes is to share my thoughts, experiences, and insights on various topics, including technology, programming, and personal development.
+My name is Greg Walsh, and this is my personal blog. My hope is to share my thoughts, experiences, and insights on various topics, including technology, programming, and personal development.
 
 I am a PKI Security Engineer for the FAA ✈️ and help run a small MSP (Managed Service Provider) on the side. I also teach Java and Python Programming courses at Stockton University. I have a passion for technology and enjoy exploring new tools and techniques to improve my skills. I also love to share my knowledge with others, whether through teaching or writing.
 

@@ -12,4 +12,4 @@ comments: false
 disableShare: true
 renderer.unsafe: true
 ---
-{{< embed-pdf url="/GregoryWalshResume.pdf" >}}
+{{< embed-pdf url="/GregoryWalshResume.pdf" hidePaginator="true">}}
