@@ -1,19 +1,17 @@
 ---
 author: ["Greg Walsh"]
 title: "Montego Bay Resort Unifi Install"
-date: "2025-11-16"
+date: "2024-11-16"
 description: "Montego Bay Resort Unifi Install"
 summary: "Montego Bay Resort Unifi Install"
-layout: "post"
 tags: ["DTSU", "Unifi"]
 categories: []
 ShowToc: true
 ShowPostNavLinks: false
-date: "2019-03-10"
-social:
-  fediverse_creator: "gregwalsh96@gmail.com"
-draft: true
 ---
+
+![Montego Bay Resort](/montegobayfront.png)
+
 ## Background
 
 [Montego Bay](https://www.montegobayresortnj.com/) is a resort located adjacent to the beach and famous Wildwood boardwalk in Wildwood NJ. It is a family owned and operated business that has been around for over 50 years. The resort has a pool, hot tub, and a small beach area. The rooms are clean and comfortable, and the staff is friendly and helpful. The staff at Montego Bay reached out to DTSU to help them upgrade their network infrastructure to support the growing number of guests and devices that were connecting to the network. The resort was experiencing slow internet speeds and frequent disconnections, which was causing frustration for both guests and staff. DTSU worked with the resort to design and implement a new network infrastructure that would provide reliable and fast internet access for all guests.
