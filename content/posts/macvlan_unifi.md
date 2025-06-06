@@ -1,7 +1,7 @@
 ---
 author: ["Greg Walsh"]
 title: "A Case for MacVLAN Docker Networking with Unifi"
-date: "2024-11-16"
+date: "2024-05-15"
 description: "Exploring the Benefits of MacVLAN Networking in Docker for Unifi Environments"
 summary: "A Case for MacVLAN Docker Networking with Unifi"
 tags: ["Docker", "Unifi", "Networking", "Home Lab"]
@@ -15,14 +15,15 @@ ShowPostNavLinks: false
 Unifi's monitoring data and network management capabilities are widely recognized, especially in home lab environments. However, when it comes to Docker networking, the default bridge network can sometimes be limiting, particularly for applications that require direct access to the network or need to be isolated from other containers. The data that the containers generate can be significant when it comes to diagnostics and monitoring. You can use services like Grafana and Prometheus to visualize this data, but you will lose out on the Unifi ecosystem capabilities. In order to get docker containers to behave nicely, I would need a solution that allows each docker container to have its own MAC address and appear as a separate device on the network. This is where MacVLAN networking comes into play.
 
 ## Background on Docker Networking Drivers
+
 Docker provides several networking driver options including bridge, host, none, overlay, ipvlan, and macvlan. Each of these drivers serves different use cases:
+
 - **Bridge**: The default driver, which creates a private internal network on the host system. Containers can communicate with each other but are isolated from the host network.
 - **Host**: Removes network isolation between the container and the Docker host, allowing the container to share the host's network stack.
 - **None**: Disables all networking for the container.
 - **Overlay**: Used for multi-host networking, allowing containers on different Docker hosts to communicate.
 - **MacVLAN**: Allows containers to have their own MAC addresses, making them appear as separate devices on the network.
 - **IPVLAN**: Similar to MacVLAN, it allows containers to have their own IP addresses but shares the host's MAC address.
-
 
 ## Use Case for MacVLAN in Home Lab Environments
 
@@ -31,7 +32,9 @@ In the case of my homelab and wanting to see each of the containers as separate 
 This post explores the benefits of using MacVLAN networking in Docker, particularly in environments with Unifi devices.
 
 ## Setting Up MacVLAN Networking
+
 To set up MacVLAN networking in Docker, you need to create a MacVLAN network and then attach your containers to it. Here’s a step-by-step guide:
+
 1. **Create a MacVLAN Network**: Use the following command to create a MacVLAN network. Replace `eth0` with your actual network interface.
 
    ```bash
@@ -41,6 +44,7 @@ To set up MacVLAN networking in Docker, you need to create a MacVLAN network and
      -o parent=eth0 \
      macvlan_network
     ```
+
 2. **Run a Container with MacVLAN**: Use the following command to run a container on the MacVLAN network. Replace `my_container` with your desired container name.
 
     ```bash
@@ -50,7 +54,7 @@ To set up MacVLAN networking in Docker, you need to create a MacVLAN network and
       my_image
     ```
 
-4. **Verify the Container's Network Configuration**: You can verify that the container is using the MacVLAN network by checking its IP address and MAC address.
+3. **Verify the Container's Network Configuration**: You can verify that the container is using the MacVLAN network by checking its IP address and MAC address.
 
     ```bash
     docker exec my_container ip addr
@@ -65,7 +69,7 @@ To set up MacVLAN networking in Docker, you need to create a MacVLAN network and
            valid_lft forever preferred_lft forever
     ```
 
-6. **Monitor with Unifi**: Once the container is running, it should appear as a separate device in your Unifi controller, allowing you to monitor its traffic and performance.
+4. **Monitor with Unifi**: Once the container is running, it should appear as a separate device in your Unifi controller, allowing you to monitor its traffic and performance.
 
 Here is an example of how the container might appear in the Unifi controller:
 
@@ -87,4 +91,5 @@ While MacVLAN networking offers many benefits, it also comes with some challenge
 - **Network Complexity**: MacVLAN can introduce additional complexity to your network configuration. Each container appears as a separate device on the network, which can make interacting with other docker plugins more complex. Sepecifically when learning about Grafana and Loki, I have issues with the Loki plugin not being able to connect to the Grafana container when using MacVLAN networking. This is because the Loki plugin is trying to connect to the Grafana container using the host's IP address, which does not work with MacVLAN networking. I am still experimenting with getting the network to correctly route the traffic between the containers and the host. This is a known issue with MacVLAN networking, and there are several workarounds that can be used to resolve it. One of the workarounds is to use a reverse proxy to route the traffic between the containers and the host.
 
 ## Conclusion
+
 MacVLAN networking in Docker provides a powerful way to manage and monitor containers in environments with Unifi devices. By allowing each container to have its own MAC address, it enables detailed monitoring and diagnostics that are not possible with the default bridge network. While there are some challenges and complexities involved in setting up MacVLAN networking, the benefits it offers in terms of visibility and control make it a compelling choice for home lab environments. When describing this project to my colleagues, many of them asked "why go through all that trouble?" My initial response was "Why not?". I wanted to see if I could get it working, and I did to some extent but I am quickly seeing the limitations of MacVLAN networking in Docker. Unless I want to add another layer of complexity to my network, I will likely not be using MacVLAN networking in the future. However, it was a great learning experience and I now have a better understanding of how Docker networking works and how to troubleshoot networking issues in Docker. For the purposes of viewing container traffic its best to just use the industry standards like Grafana and Prometheus with the docker plugin. This will allow you to monitor your containers without having to worry about the complexities of MacVLAN networking.
