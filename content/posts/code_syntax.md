@@ -152,4 +152,4 @@ This is pre text
 
 ### Github Gist
 
-{{< gist adityatelange 376cd56ee2c94aaa2e8b93200f2ba8b5 >}}
+[View the gist on GitHub](https://gist.github.com/adityatelange/376cd56ee2c94aaa2e8b93200f2ba8b5)
