@@ -24,9 +24,10 @@ I went to Stockton University and graduated with an M.S. in Data Science & Strat
 
 I am a huge fan of open source software and believe in the power of community-driven projects. I use open source tools every day this blog included.
 
-I'm glad you're here and I hope you find something useful or interesting. If you have any questions or feedback, feel free to reach out on Twitter or LinkedIn.
+I'm glad you are here and I hope you find something useful or interesting on my blog. If you have any questions or feedback, feel free to reach out to me on [Twitter](https://twitter.com/gregwalsh96) or [LinkedIn](https://www.linkedin.com/in/gregwalsh96/).
 
-None of the content here is sponsored or endorsed by my employer, and all opinions are my own.
+**None of the content here is sponsored or endorsed by my employer, and all opinions are my own.**
+
 
 Most importantly:
 
