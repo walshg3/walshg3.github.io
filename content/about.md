@@ -35,15 +35,3 @@ I make what I love.
 
 I love what I do.
 
-
-
-
-
-
-**None of the content here is sponsored or endorsed by my employer, and all opinions are my own.**
-
-Most Importantly:
-
-I make what I love.
-
-I love what I do.
