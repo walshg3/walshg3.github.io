@@ -14,7 +14,7 @@ disableShare: true
 
 ## Gregory Walsh
 
-![Photo of me](/aboutme.png)
+![Greg Walsh with his cat](/about-greg-cat-20261030.jpg)
 
 My name is Greg Walsh, and this is my personal blog. My hope is to share my thoughts, experiences, and insights on various topics, including technology, programming, and personal development.
 
