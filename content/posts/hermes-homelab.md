@@ -4,7 +4,7 @@ author: ["Greg Walsh"]
 date: "2026-09-30"
 lastmod: "2026-10-30"
 draft: false
-description: "How I use Hermes for troubleshooting, maintenance, and scheduled automation, and where I still require human decisions."
+description: "How I use Hermes-Agent in my Homelab"
 tags: ["homelab", "automation", "Hermes Agent", "AI", "Docker"]
 ShowToc: true
 images: ["/web-app-manifest-512x512.png"]
